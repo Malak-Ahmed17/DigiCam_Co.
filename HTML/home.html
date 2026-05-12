@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigiCam Co.</title>
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="home-header">
+      <nav class="navbar">
+        <h2 class="logo">DIGICAM <span>Co.</span></h2>
+
+        <ul class="nav-links">
+          <li><a class="active" href="home.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+            <input type="text" placeholder="Search..." id="searchInput" />
+          </div>
+
+          <a href="cart.html" class="cart-link">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">0</span>
+          </a>
+
+          <button class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+
+        <div class="mobile-menu">
+          <a class="active" href="home.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+
+          <div class="mobile-search">
+            <input type="text" placeholder="Search cameras" />
+          </div>
+
+          <a href="cart.html" class="mobile-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h3>Cart</h3>
+            <span class="cart-count">0</span>
+          </a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-content">
+          <p class="hero-label">Capture Moments</p>
+          <h1>Timeless<br />Memories</h1>
+
+          <p class="hero-desc">
+            Discover vintage cameras that bring<br />
+            your moments to life.
+          </p>
+          <a href="shop.html" class="hero-btn">Shop Now <span>→</span></a>
+        </div>
+      </section>
+    </header>
+
+    <!-- SCROLLING SECTION  -->
+
+    <section class="product-slider reveal">
+      <h2>Travel Back In Time</h2>
+      <p>Explore hand-picked vintage digital cameras.</p>
+
+      <div class="slider">
+        <div class="slide-track">
+          <img src="../Images/camera1.jpg" alt="" />
+          <img src="../Images/camera2.jpg" alt="" />
+          <img src="../Images/camera3.jpg" alt="" />
+          <img src="../Images/camera4.jpg" alt="" />
+          <img src="../Images/camera5.jpg" alt="" />
+          <img src="../Images/camera1.jpg" alt="" />
+          <img src="../Images/camera2.jpg" alt="" />
+          <img src="../Images/camera3.jpg" alt="" />
+          <img src="../Images/camera4.jpg" alt="" />
+          <img src="../Images/camera5.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 DigiCam Co. Store</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="../JavaScript/script.js"></script>
+  </body>
+</html>

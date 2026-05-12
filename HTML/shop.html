@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop | DigiCam Co.</title>
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <h2 class="logo">DIGICAM <span>Co.</span></h2>
+
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a class="active" href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-icons">
+        <div class="search-box">
+
+          <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+          <input type="text" placeholder="Search..." id="searchInput" />
+       
+        </div>
+        <a href="cart.html" class="cart-link">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-count">0</span>
+        </a>
+        
+        <button class="menu-toggle" >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <a href="home.html">Home</a>
+        <a class="active" href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="mobile-search">
+          <span>⌕</span>
+          <input type="text" placeholder="Search cameras" />
+        </div>
+
+        <a href="cart.html" class="mobile-cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Cart</h3>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </nav>
+
+    <section class="shop-hero">
+      <h1>Shop Vintage Cameras</h1>
+      <p>Hand-picked digicams with a classic soul.</p>
+    </section>
+
+    <section class="shop-section">
+
+      <div class="products-grid reveal">
+        <div class="product-card">
+          <span class="badge">Classic</span>
+          <img src="../Images/camera1.jpg" alt="" />
+          <h3>Canon PowerShot A95</h3>
+          <p>Warm colors, compact body, nostalgic look.</p>
+          <h4>$120</h4>
+          <div class="card-buttons">
+            <a href="product.html">View Details</a>
+            <button
+              class="add-to-cart"
+              data-name="Canon PowerShot A95"
+              data-price="120"
+              data-image="../Images/camera1.jpg">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="badge">Rare</span>
+          <img src="../Images/camera2.jpg" alt="" />
+          <h3>Sony Cyber-shot</h3>
+          <p>Small digital camera with a soft retro feel.</p>
+          <h4>$95</h4>
+          <div class="card-buttons">
+            <a href="product.html">View Details</a>
+            <button
+              class="add-to-cart"
+              data-name="Sony Cyber-shot"
+              data-price="95"
+              data-image="../Images/camera2.jpg">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="badge">Best Seller</span>
+          <img src="../Images/camera3.jpg" alt="" />
+          <h3>Nikon Coolpix</h3>
+          <p>Perfect for daily memories and street shots.</p>
+          <h4>$110</h4>
+          <div class="card-buttons">
+            <a href="product.html">View Details</a>
+            <button
+              class="add-to-cart"
+              data-name="Nikon Coolpix"
+              data-price="110"
+              data-image="../Images/camera3.jpg">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="badge">Compact</span>
+          <img src="../Images/camera4.jpg" alt="" />
+          <h3>Olympus FE</h3>
+          <p>Simple, lightweight, and easy to carry and use.</p>
+          <h4>$85</h4>
+          <div class="card-buttons">
+            <a href="product.html">View Details</a>
+            <button
+              class="add-to-cart"
+              data-name="Olympus FE"
+              data-price="85"
+              data-image="../Images/camera4.jpg">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="badge">Classic</span>
+          <img src="../Images/camera5.jpg" alt="" />
+          <h3>Fujifilm FinePix</h3>
+          <p>Classic tones with a strong vintage character.</p>
+          <h4>$130</h4>
+          <div class="card-buttons">
+            <a href="product.html">View Details</a>
+            <button
+              class="add-to-cart"
+              data-name="Fujifilm FinePix"
+              data-price="130"
+              data-image="../Images/camera5.jpg">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="badge">Rare</span>
+          <img src="../Images/camera6.jpg" alt="" />
+          <h3>Kodak EasyShare</h3>
+          <p>Old-school digital look with warm memories.</p>
+          <h4>$100</h4>
+          <div class="card-buttons">
+            <a href="product.html">View Details</a>
+            <button
+              class="add-to-cart"
+              data-name="Kodak EasyShare"
+              data-price="100"
+              data-image="../Images/camera6.jpg">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop-banner">
+      <h2>Not sure which camera fits you?</h2>
+      <p>Choose by style: travel, street, portraits, or daily memories.</p>
+      <a href="contact.html">Ask Us</a>
+    </section>
+
+    <footer>
+      <p>© 2026 DigiCam Co. All rights reserved.</p>
+    </footer>
+    <script src="../JavaScript/script.js"></script>
+  </body>
+</html>

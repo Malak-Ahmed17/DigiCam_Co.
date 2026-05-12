@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | DigiCam Co.</title>
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <h2 class="logo">DIGICAM <span>Co.</span></h2>
+
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-icons">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+
+          <input type="text" placeholder="Search..." id="searchInput" />
+        </div>
+        <a href="cart.html" class="cart-link"
+          ><i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-count">0</span>
+        </a>
+        <button class="menu-toggle" >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <a href="home.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+
+        <div class="mobile-search">
+          <input type="text" placeholder="Search cameras" />
+        </div>
+
+        <a href="cart.html" class="mobile-cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Cart</h3>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </nav>
+
+    <section class="contact-page">
+      <div class="contact-card">
+        <div class="contact-info">
+          <span class="postcard-label">DigiCam Support</span>
+          <h1>Order a Memory</h1>
+          <p>
+            Have a question about a camera, an order, or which digicam fits your
+            style? Write to us like an old postcard.
+          </p>
+
+          <div class="contact-detail">
+            <h3>Email</h3>
+            <p>support@digicamco.com</p>
+          </div>
+
+          <div class="contact-detail">
+            <h3>Instagram</h3>
+            <p>@digicam.co</p>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea placeholder="Write your message..."></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 DigiCam Co. All rights reserved.</p>
+    </footer>
+    <script src="../JavaScript/script.js"></script>
+  </body>
+</html>
